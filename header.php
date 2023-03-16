@@ -13,7 +13,7 @@
             </div>
             <div class="row">
               <div class="col-12 col-lg-3 logo-area">
-                  <a href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_mod( 'wb_site_logo' ); ?>"></a>
+                  <a href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_mod( 'wb_site_logo' ); ?>" loading="lazy"></a>
               </div>
               <div class="col-12 col-lg-9 menu-area">
                 <?php wp_nav_menu( array(

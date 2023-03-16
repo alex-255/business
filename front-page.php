@@ -94,7 +94,7 @@ get_header();
             $the_query->the_post(); ?>
                 <div class="row">
                     <div class="col-12 col-lg-7 main-post--image">
-                        <img  src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>" />
+                        <img  src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>" loading="lazy" />
                     </div>
                     <div class="col-12 col-lg-5 main-post--content">
                         <h2><?php the_title(); ?><?php echo (is_sticky(get_the_ID())) ? ' <i class="bi bi-star-fill"><span class="tooltiptext">Sticky post</span></i>' : "" ; ?></h2>
